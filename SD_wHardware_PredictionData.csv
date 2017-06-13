@@ -1,0 +1,522 @@
+"number","short_description","close_notes","description"
+"INC1070841","Drive encryption error","Hi Brian, thanks for calling the help desk.  If you have any other bit locker problems when it's not available for you to call 4-help, you can follow the procedure that we did to restart your system.
+Bill Ellsworth","After a rebuild, Brian tried to log in but immediately received a bitlocker problem.  "
+"INC1070654","COM port not working?","Hello,
+
+I understand that James has put you in contact with HITS, who handles support for the computer you are having issues with.  They use a separate ticketing system, so I am going to go ahead and close this ticket in our system.  Have a great day!
+
+- Kris, Neighborhood IT","Matthew called in to report that he has equipment setup on a MiWS desktop that requires use of the COM port and it is not working."
+"INC1066402","PENDING DELIVERY 6-7 - Docking station latch and eject button doesn't work","Mission complete","The Ultra slim hp docking station serial number (cnu436z0yj) the latch button doesn't push all the way in making the computer unable to dock. The docking station is on my desk in room 2353 of the Dana building. Please take the docking station to tech repair. Please let me know if there are any questions.
+
+Thanks,
+
+Tim Collier"
+"INC1058105","DELIVERY - [6/7] University Library 2026 Shapiro - Laptop for Tech Repair - Docking Station Connector","Mission complete","sure dude
+Laptop is having problems connecting to monitors via docking station, and may need some sort of hardware repair/replacement.
+
+As noted in INC1049341:
+
+""tried both VGA and DisplayPort cables, updated the dock firmware, updated the display driver, swapped the dock with a known good dock, and swapped the monitor with one we had in stock. With DisplayPort the monitor comes on for a few seconds then flickers off for a few then comes back on for a few. With VGA there's no display. I'm thinking at this point that it's something hardware-related with the connection between the computer and the dock.""
+
+I've also attempted it on a different kind of dock we have in the office. It'll sometimes work, but will often lose connection, especially if you move the dock or do anything that could jiggle the computer/dock port connection. Sometimes it only connects to one monitor. I'm thinking there's a problem specific to the laptop port that may need to be replaced/repaired. 
+
+MIWS tag is MIWS0014859. Serial Number 8CG53721P6.
+
+Please let me know if you need anymore info!
+
+-Brett"
+"INC1055240","MWS Refresh Deployment - School of Education - For User hybass","Hi Hy,
+
+I deployed your iMac and took the thunderbolt display. We went through everything, including dropbox, MWireless, crashplan and setting up your new bluetooth speaker. You are an admin on your machine as well. I believe you are all set! Let us know if you run into anything. Have a great day!
+
+Theo Tangalakis
+ITS MiWorkpsace","Please update the caller information for this ticket to the user or managing user of the machine being refreshed.
+Please also update the location to the actual area of the deployment. This is for tracking purposes.
+
+Please complete refresh activities for the following user and machine as instructed in your unit.
+Username: Bass, Hyman  (hybass)
+Old Serial Number: C02MG12TFD58
+New Serial Number: D25TM08LGQ17
+
+Please update this ticket with any extras received, deployed, or removed along with the machine. (i.e. monitors, docks, peripherals)
+
+Once new hardware is in place, complete the Day One checklist in Samwise: https://miwsapps.miserver.it.umich.edu/samwise/
+
+Once complete, update Service Link records for both new and old hardware and close this ticket."
+"INC1057202","MiWorkspace","Hi Hamida,
+
+I'm just going through and closing out our help ticket. I believe we are all set since the M: drive is now mapped to your machine. Once again, please let me know if there is anything else you need. We're always happy to help.
+
+See you Friday!
+
+Chris Bell
+NIT Central 5","We would like to purchase a new laptop  http://computershowcase.umich.edu/item.php?cat=76&item=158403&id=4222  for Hamida Bhagirathy-Bastin <hbhagira@umich.edu> and a docking station for this laptop. She would like to have adobe pro installed on her new computer. 
+
+She is going to a conference June 12, and we would like for her to have the laptop before that day if possible. The shortcode is 104427. Please let me know if you need additional information.
+ - Contact user by Email"
+"INC1068303","Help: computer cannot start up","Linglin,
+
+The upgrade is done, and I will install the rest of the software tomorrow.
+
+Jon Hall 
+ITS N. Campus","Dear Sir or Madam,
+I am sorry that I find my computer cannot start up. And maybe some problem
+have happened last week when my colleague found its fan was quite loud so
+they helped me unplug it. Today is the first time I start it but it didn't
+work.
+Could you please help me to check and repair it? I am really appreciate
+that.
+My office is NCRC B20 112w.
+Linglin Feng"
+"INC1066259","MiWorkspace - Monitors sit/stand","Connected monitors to sit/stand and set up keyboard and mouse as well. Ensured all connections functional and made an effort to cable manage the monitor and keyboard connections. Confirmed with David that the setup works for him.
+
+","Hello! Can someone please come and install computer equipment on an ergotron standing desk? The monitors need to be mounted and the keyboard and mouse. Room 8066 for David Zuble (dzubl)
+
+Thanks! - Contact user by Email"
+"INC1068537","Pickup Scheduled [6/9] - Replace monitors","","Please pull 2 of the 24"" monitors from Procurement storage and replace Julie Brouwer's monitors in 7042-08.
+One of the deployed monitors does not have video sending to tech repair.
+CN464705J2"
+"INC1021431","MWS Refresh Deployment - UHS - For User khubeisj","Refreshed machine and ensured new machine worked correctly.","Please update the caller information for this ticket to the user or managing user of the machine being refreshed.
+Please also update the location to the actual area of the deployment. This is for tracking purposes.
+
+Please complete refresh activities for the following user and machine as instructed in your unit.
+Username: Khubeis, Juliana  (khubeisj)
+Old Serial Number: BM800R1
+New Serial Number: 2UA704217C
+
+Please update this ticket with any extras received, deployed, or removed along with the machine. (i.e. monitors, docks, peripherals)
+
+Once new hardware is in place, complete the Day One checklist in Samwise: https://miwsapps.miserver.it.umich.edu/samwise/
+
+Once complete, update Service Link records for both new and old hardware and close this ticket."
+"INC1060546","Fwd: HP Laptop w/ docking station transfer","Nick,
+
+I have moved both computers to the correct rooms. Computer MIWS0015883 is not installed and it does not have a network connection.
+
+
+Marcus Hunt","Hello,
+
+I would like to submit a request to transfer the computer hardware
+mentioned in the below email, to room 1144 in Facilities Services Building
+A. Please note that the transfer should not take place any earlier than
+6/5/2017, as it will be in use up to that date.
+
+Thanks,
+
+Nick Vanderkolk
+
+[image: Description: Description: cid:image001.png@01CA0143.F8817230]
+Water Treatment Program Manager
+Maintenance - Auxiliaries & Central Shops
+Facilities & Operations
+Office: 734.764.3045
+Cell: 248.701.0036
+
+
+
+---------- Forwarded message ----------
+From: Tom Sullivan <tomsul@umich.edu>
+Date: Wed, May 24, 2017 at 5:02 PM
+Subject: HP Laptop w/ docking station transfer
+To: Nick Vanderkolk <nevander@umich.edu>
+Cc: Lowell Hanson <ljhanson@umich.edu>, Gina Flowers <aschenbr@umich.edu>,
+Gene Weincouff <eawein@umich.edu>, Julie Ashley <ashleyj@umich.edu>
+
+
+Nick,
+
+Per our conversation today, my HP laptop with docking station, two
+monitors, wireless keyboard and mouse, and speakers, will become available
+on June 5 for your student's workstation. I'm sending you the computer
+information in case you want to submit a help ticket to plan for getting it
+set up in your office. Please specify that it should not be transferred
+from my office in Facilities Services Building room 1042 until June 5, as I
+will still be using it during my last week at work. Thanks, Tom
+
+[image: Inline image 1]
+
+
+Tom Sullivan
+
+U-M Facilities & Operations Maintenance | 326 East Hoover, Ann Arbor, MI
+ 48109
+
+*Office: 734.936.2532 <(734)%20936-2532> | Fax: 734.615.6933
+<(734)%20615-6933> *"
+"INC1070116","Tech swapped wrong PC","Gina,
+
+I moved both computers to the correct rooms. Computer MIWS0015883 (room 1144)is not installed nor does is it have a network connection.
+
+
+Marcus Hunt","Needs to return and take MIWS0014289 to Gene's office.
+Please see Gina for any details.
+"
+"INC0971928","Out for Delivery [06/06] - Request for Another Quote for Computer Equipment (3004387700) (3004439535)","Hello Dana, 
+
+Sorry for the delay in getting you your second power adaptor for your Z book. I have dropped it off in your office. I will be closing this ticket at this time. If you need to re-open this ticket you can do so by replying to this email. For any other computing needs please call 4-Help and submit a ticket.
+
+We will continue to make sure all your data has been transferred from you mac to zbook in the other active ticket.
+
+Thanks and have a great day!
+Matt B.","Good afternoon,
+
+Another of our faculty members, Dr. Dana Tschannen ( djvs ), would like to request a quote for some new computer equipment as well. Specifically, Dr. Tschannen needs a new laptop computer like the one that she currently uses in her office (room 4152 NIB).
+
+The laptop will need to be able to connect to the Konica Printer in the fourth floor printing room (i.e., 4157), and it will need to function with MiWorkspace. Please note that this has been a recurring issue with Dr. Tschannen's current laptop, which is a Macintosh. (I have attached some documentation of this issue to this email.) The computer will also need to have enough memory to support using an application called Second Life, and it will need a good graphics card.
+
+Dr. Tschannen is also curious to know how much it might cost for her to get one of the larger, rectangular monitors. Please note that this item may need to be purchased from a different account. If we can get an idea of how much these items might cost individually, we can then provide information as to how it should be purchased.
+
+When responding to this email, please include Dr. Dana Tschannen (djvs@med.umich.edu<mailto:djvs@med.umich.edu>) and Alisa Maiville (maiville@umich.edu<mailto:maiville@umich.edu>) so that we will all receive the information at the same time.
+
+Thank you very much,
+
+Glen Marian
+Executive Secretary to Dr. Marita Titler, PhD, RN, FAAN
+Department of Systems, Populations and Leadership
+School of Nursing | University of Michigan
+400 N. Ingalls, Suite 4170
+Ann Arbor, MI 48109-5482
+glenbrau@med.umich.edu<mailto:glenbrau@med.umich.edu>
+(734) 763-1188
+
+**********************************************************
+Electronic Mail is not secure, may not be read every day, and should not be used for urgent or sensitive issues"
+"INC1070110","Please pick up equipment for property/disposal","This was picked up.","Hello,
+
+Please pick up the following two computers and two monitors for property/disposal:
+
+Shortcode: 275636
+
+MIWS0006024
+MIWS0007176
+
+Two Dell 21""ish displays
+
+Two Dell Monitor Soundbars
+
+Please let me know if you have any questions.
+
+Thanks,
+
+Jason Westbrook
+ITS - NIT CC 3
+"
+"INC1066315","Requesting laptop for June 5 - June 7 reservation","Laptop returned","Good morning,
+I'd like to reserve a laptop for the following times:
+
+Monday, June 5 8am-12:30pm
+Tuesday, June 6 9am-12:30pm
+Wednesday, June 7 9am-3pm
+
+Thank you,
+Kafi
+
+-- 
+Program Manager, Doris Duke Conservation Scholars Program
+School of Natural Resources and Environment, University of Michigan
+734-936-0900"
+"INC1010663","MWS Refresh Deployment - Sponsored Programs (Wave 1) - For User cgraf on hold until May","Hi Colleena,
+
+Glad to know you're up and running with your new equipment. Please let us know if you have any difficulty with your new computer.
+
+Have a great day!
+Chase","Please update the caller information for this ticket to the user or managing user of the machine being refreshed.
+Please also update the location to the actual area of the deployment. This is for tracking purposes.
+
+Please complete refresh activities for the following user and machine as instructed in your unit.
+Username: Graf, Colleena  (cgraf)
+Old Serial Number: 2UA23324D8
+New Serial Number: 2UA6392TQ5
+
+Please update this ticket with any extras received, deployed, or removed along with the machine. (i.e. monitors, docks, peripherals)
+
+Once new hardware is in place, complete the Day One checklist in Samwise: https://miwsapps.miserver.it.umich.edu/samwise/
+
+Once complete, update Service Link records for both new and old hardware and close this ticket."
+"INC1070366","Possible phish on computer","Hi John,
+
+I am closing this ticket.
+Let me know if your issue returns.
+
+Greg","Computer is going bonkers
+- Looking at email. Received a message to call Microsoft. Unable to shut down computer.
+
+Had to unplug computer in order to even shut down the computer. Once plugging it in it went to the task manager windows, and then he internet page showed up and then the task manager popped up again. 
+
+Was able to close the task manager. 
+
+Tried to open Chrome and it opened up 4 windows and then shut down those windows
+"
+"INC1069863","PENDING PICK UP 6-7 Returning Loaner lap top used by wggreer","Loaner returned to stock","Please pick up lap top from 4232 400 NIB.
+I have used my email for preferred email so user is not bothered with back end communication.
+Return to depot loaner pool."
+"INC1069545","Loaner Housing Laptop Request"," ","Loaner Housing Laptop Request: due to virus on INC1069428 "
+"INC1070086","Computer Monitor Issue","Hello Corey,
+
+Your monitor should be responding properly now to the motion sensor, and hopefully your colleague with the same issue also has her problem solved. Please let us know if you have another further problems pertaining to your monitors, have a great day!
+
+Regards,
+
+Brad Drenckpohl
+Neighborhood IT | Central 5
+MiWorkspace","Good morning,
+
+My computer monitor is tied to a motion sensor that it is not cooperating
+with. When my computer locks and I leave the office I usually need to turn
+the monitor on and off and press some keyboard buttons to get the display
+to come back up. Today even that would not work and I was forced to force
+my computer to shut down and restart.
+
+Sincerely,
+Corey
+
+
+*Corey Sampsel, MSHE*Academic Advisor
+Gerald R. Ford School of Public Policy
+University of Michigan
+Joan & Sanford Weill Hall
+735 S. State Street, 2244
+Ann Arbor MI 48109
+734-647-5517
+fordschool.umich.edu <http://www.fordschool.umich.edu/>
+@fordschool <http://twitter.com/fordschool>
+
+Schedule an Advising Appointment
+<https://calendar.google.com/calendar/selfsched?sstoken=UUhFWTZKRGlaSnBJfGRlZmF1bHR8ZTBlNGFkNjI3OWZiYmU1YjEyMjhkZjFiNjdmMmU1OTg>
+
+Walk-in advising is generally offered on Wednesdays and Thursdays from
+4-5pm.
+
+*Pronouns: he/him/his*
+
+?? Please consider the environment before printing this email."
+"INC1055676","Investigate F-10 problem. ","David I am going to keep testing it to make sure it is working.","Four laptops go to go to edit boot options on pressing f-10 at startup. "
+"INC1068113","PENDING DELIVERY 6-6 Desktop loaner request, built with UUIS Core, delivered to Union NIT","Loaner desktop has been successfully provided to the Information Desk while the normal HP desktop is in for repair.","
+Name of requester (N-IT)* Trevor Borkin
+
+Delivery destination* B614 West Quad (Union NIT Office)
+
+core build * UUIS CORE
+
+Item(s) being requested * 1 HP DESKTOP
+
+Who is request for (Uniqname)* bdbooker
+
+Location of user above (^^^) Campus Information Desk in Michigan Union
+
+Expected return date of loaned equipment * After repair of native computer is complete (within 2-3 weeks)
+
+Date of request * 6-5-17
+
+Department * Student Life
+
+ShortCode for lost/damage/stolen non returned equipment (ie chargers, adapters, ect) * NA"
+"INC1070294","SAB Moves 6/6/17","Bill,
+
+We moved all the computers and updated the inventory.
+
+Noah","The following machines have been updated in inventory to reflect their new locations following the OUA moves on 6/6/17:
+
+MIWS0014975
+MIWS0009311
+MIWS0014970
+MIWS0009308
+MIWS0004191
+MIWS0004201
+MIWS0004182
+MIWS0004219
+MIWS0012589
+MIWS0009291
+MIWS0004221
+MIWS0012592
+MIWS0004195
+MIWS0004195
+MIWS0003532
+MIWS0003550
+MIWS0004202
+MIWS0003531
+MIWS0004200
+MIWS0003540
+MIWS0004205
+MIWS0004227
+MIWS0004225
+MIWS0004178
+MIWS0014977
+MIWS0017800
+MIWS0004181
+MIWS0004224
+MIWS0004210
+
+Some of these computers were the original computers in 222, so inventory stayed the same."
+"INC1067498","Screen goes blank multiple times ","Hi Yinka, 
+I think updating the graphics driver will resolve the problems of the web freezing and Aleph quitting. Please feel free to reopen the ticket if the behavior returns. 
+
+Thanks, Kari ","Screen goes blank multiple times. 
+Once this goes away she is able to get into her computer but she loses some of her things. "
+"INC1070115","Needs external keyboard for his laptop.","Hi Brian,
+
+I'm just following up to let you know that I've added the keyboard to the inventory list of things you have, and I'm closing the support ticket.
+
+Thanks,
+Neil",""
+"INC1054785","Apple Computer Maintenance in common area of 3009 SAB","Alida,
+
+I looked at each computer. On each I did a general diagnostics test, hard drive check, software update, and malware scan. If you need anything else, please submit a new ticket and we'll help you out.
+
+Noah
+NIT","ITS,
+
+I am placing a work order to have all Apple computer maintenance in common area of 3009 SAB.  Just want to make sure they are running properly. Thank you.
+
+*Alida Walker-Financial Assistant*
+Office of Academic Multicultural Initiatives (OAMI)
+University of Michigan
+515 E. Jefferson
+3009 Student Activities Building
+Ann Arbor, MI. 48109
+734-764-4635
+avwalker@umich.edu"
+"INC1069214","Umich Password Reset","Hi Kevin,
+
+I just spoke with Shelly, and your job data and affiliation are all showing in the system now. You will be able to contact HITS - Medical IT office and receive your Level 2 password. Their direct number is 734-936-8000.
+
+Thank you
+Shannon","Kevin does not have a level 1 password. Needs assistance with reset and navigation to university resources (aka email). "
+"INC1036014","AV for Workshop","Loaner returned","Kela wanted me to request a laptop and projector for a Intro to Stress
+Management workshop on 6/5/17 in 1028.  Is there a built-in projector in
+that room?  If yes, we only need the laptop.
+Thanks,
+
+Lindsay
+
+---
+
+Lindsay K. Brown
+
+Master's Student, Health Informatics, 2018
+
+University of Michigan -- Ann Arbor, MI
+
+Schools of Public Health & Information
+
+Student Office Assistant - SNRE HR"
+"INC1069616","9AM Pickup & Delivery (6/6) - Housing Computer for pickup","Mission complete","We have a laptop that belonged to an employee who was just off-boarded.  HITO would like the computer picked up and delivered to their office in Markley so they can prep the computer for the next user.  Let me know if you need more information.
+
+Thanks!"
+"INC1063587","Awaiting Quote Approval & Shortcode [6/7] -Recommendations for Macbook pro","Quotes have been sent - User will be out of office until 6/17
+Closing upon Steve's recommendation. We can facilitate an order once he returns","Edward would like to purchase a new Macbook Pro, magic mouse and 24in monitor.
+
+waisaed@umich.edu"
+"INC1069968","saved some files to thumb drive, monitors went black and now only displaying on laptop display. ","Glad your laptop is working again Michael,
+
+Please let us know if you any issues with it booting up again. I hope you have an excellent rest of the day!
+
+Douglas DeWitt 
+dewittd@umich.edu
+763-1926 (directline) or 764-HELP (4357) 
+4-HELP is open M-Th 7am - 7pm, Friday  7am - 6pm, and Sunday 2 - 7pm
+https://chatsupport.it.umich.edu/ (or click on the MiWorkspace icon on your desktop, then select ""Chat 4-Help"") Monday–Friday: 8 a.m.–5 p.m.
+(All times Eastern)","Now won't restart. 
+
+55070 if questions"
+"INC1047776","TIMLY - request for a laptop loaner for China trip","Hi Jukie,
+   Thanks for getting it back to us.  Appreciate it!  I may be reopening the other ticket for Mary Francis.  I should have left that one open and closed this one.  Oops!  If you see notes about it, nothing will be required or asked of you from me, just some internal recordkeeping.
+
+Thanks,
+
+Steve","Hi,
+
+My apologies for the late notice.  Elaine will be traveling to China this
+month leaving on May 19th.  She would like to have a MacBook Air with all
+the setup working in China. Is that possible she can have the loaner
+earlier next week, please?
+
+Please let me know what I should do next to complete this request.
+
+Thanks,
+-Jukie"
+"INC1068976","Request for assistance","Hi Doris:
+
+I was able to move your printer, install the Dymo printer and software and replace your mouse.
+..................
+If you need further assistance please feel free to contact us.
+https:\\chatsupport.it.umich.edu/
+4-HELP / (764-4357)
+Keith Bradley,
+Neighborhood IT Central 3","I need someone to come and move printer from floor to the top of desk, 
+
+also I need wheel on the mouse tighten, 
+
+also I need my dymo printer connected. - Contact user by Email"
+"INC1041265","DELIVERY - [6/2] Avery Gleason VGA Port - NIT see work notes please","Hi Avery,
+
+Please call 4-HELP if you find any problems with your machine. Have a great rest of your day!
+
+Edwin Tang
+Neighborhood IT","Hello,
+
+I hope you're having a wonderful afternoon.
+
+My name is Avery Gleason OUD DMT (16818688) and my VGA Port on my computer
+has stopped working.  Please let me know the steps to get this fixed.
+
+Thanks, I appreciate your help.
+
+Avery
+
+-- 
+*Avery Gleason? *
+?
+Business Intelligence Analyst
+*--------------------------------------------------------*
+Integrated Data Services |
+Office of University Development
+?University of Michigan |
+8042 Wolverine Tower, 3003 S. State St
+?Phone: 517.648.9262 <http://517.648.9262/> | averyag@umich.edu"
+"INC1059377","CIGLR for June 9th","Hi Michelle,
+   We have everything reserved and ready to go for the 9th.  It's in the SNRE IT office and can be picked up at your convenience.  I'm going to go ahead and close this ticket since we've completed the request and have it ready for you to go.
+
+Thanks,
+
+Steve","Good morning!
+
+First, thanks for your help yesterday for CIGLR's June 1st event with
+laptop, monitor, screen, and projector!  Really appreciate it.
+
+ALSO:
+
+CIGLR would like to have a laptop and monitor for a June 9th event.
+Thank you!
+
+Michele
+
+-- 
+
+
+*Michele Wensman*
+*Outreach and Laboratory Assistant*
+Cooperative Institute for Great Lakes Research
+@ NOAA Great Lakes Environmental Research Laboratory (GLERL)
+4840 South State Road, Ann Arbor, MI 48109-1041
+734-763-5014 (UM) 734-741-2398 (NOAA-GLERL)
+mwensman@umich.edu
+ciglr.seas.umich.edu"
+"INC1063800","Will be ordering a new computer for Claudia Leo (cvleo)","Hi Ridley
+
+I'm working with Claudia to get her computer setup the way she wants it.  I pushed Creative Suite and Filemaker Pro to her computer, and we're working on getting a monitor set up for her.  I also provided her with some info to get her set up for an ergonomics assessment, and gave her a couple of different ergo mice to try out.  I'll keep working with her on her data.  I'm going to close this ticket so you don't have to be in the loop any more for this request.  Thanks for your help!
+
+Michael Emery
+NIT Central 2","Hi guys,
+
+I wanted to let you know that Claudia Leo (cvleo), who currently works for SI but is about to start a new role tomorrow, would like to replace her existing computer.  It's likely to be a Mac laptop, but please don't put in an order yet--she and I are going to talk next week and she wants to wait until then to put in the order.  Just wanted to let you know that it will be coming soon, and that it will be on shortcode 193712, not 101552."
+"INC1067762","**Fix inventory","Asset record updated","Discrepancy in serial number for Royster's Surface Pro. Service Link is showing 0011454455383. Code 42 shows the ending numbers -353. Please correct.
+See updated notes below
+"
+"INC1057614","Depot Loaner Repair - Bad Display","machine collected and returned to depot
+","This machine has a bad display. Please repair and return to us."
+"INC1069511","Re-activate Hardware from Property Disposition","Asset records have been updated","Depot: CoP at NCRC has purchased 2 machines from Property Disposition, and would like them re-activated in the system.
+
+1. HP Prodesk 600 G1, 16GB RAM Core i7 Serial# 2UA5361WT2 existing asset tag MIWS0014933 
+2. HP Prodesk 600 G1 16GB RAM Core i7 Serial# 2UA450185M  existing asset tag MIWS0013209
+"
