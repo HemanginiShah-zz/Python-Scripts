@@ -20,5 +20,5 @@ The nn_testing file is oriented around the neural network. Fully documented code
 Our frontend process to date:
  - > 1.) Daily output file of incident fields in shared folder (in .csv format, fields parsed as strings and denoted by commas)
  - > 2.) Automatically pick up file and send to GitHub (via .git/commit incantation)
- - > 3.) Train model in Cloud (AWS, TensorCloud) and get prediction Output as prediction file. This will represent the correct configeration of each Incident input.
+ - > 3.) Train model in Cloud (AWS, TensorCloud) and get prediction Output as prediction file. This will represent the correct configuration of each Incident input.
  - > 4.) GitHub sends output file to FTP to update ServiceLink Incidents
