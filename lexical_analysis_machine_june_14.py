@@ -1,4 +1,4 @@
-# Neural Network Training: Testing
+# This file represents the testing enviornment for preprocessing
 # #
 # Josh Gordon {ML} Recipes
 #   -> https://youtu.be/cKxRvEZd3Mw?list=PLOU2XLYxmsIIuiBfYad6rFYQU_jL2ryal
@@ -186,6 +186,8 @@ print('\t',left[:10])
 print('\t      - ::::::: -')
 print('\t',right[:10],'\n')
 print('Identifying principle component and decreasing dimensionality, please wait ...\n')
+
+#TODO: Impliment PCA or simular algorithm to reduce dimensionality of lexio2 matrix
 
 upper_bound = 40000
 lower_bound = 6500
