@@ -314,11 +314,12 @@ n_nodes_hl3 = 500
 n_classes = 2
 batch_size = 100
 
-x = tf.placeholder(dict, [None, len(all_incidents[0].lexicon)])
-y = tf.placeholder(dict)
+x_shape = len([inc.lexicon for inc in all_incidents])
+test_x = tf.placeholder('int32', [None, len(all_incidents[0].lexicon)])
+test_y = tf.placeholder('int32')
 
 def neural_network_model(data):
-    hidden_1_layer = {'weights':tf.Variable(tf.random_normal([len(all_incidents[0].lexicon), n_nodes_hl1])),
+    hidden_1_layer = {'weights':tf.Variable(tf.random_normal([x_shape, n_nodes_hl1])),
                       'biases':tf.Variable(tf.random_normal([n_nodes_hl1]))}
 
     hidden_2_layer = {'weights':tf.Variable(tf.random_normal([n_nodes_hl1, n_nodes_hl2])),
@@ -331,28 +332,28 @@ def neural_network_model(data):
                     'biases':tf.Variable(tf.random_normal([n_classes])),}
 
 
-    l1 = tf.add(tf.matmul(data,hidden_1_layer['weights']), hidden_1_layer['biases'])
+    l1 = (data * hidden_1_layer['weights']) + hidden_1_layer['biases']
     l1 = tf.nn.relu(l1)
 
-    l2 = tf.add(tf.matmul(l1,hidden_2_layer['weights']), hidden_2_layer['biases'])
+    l2 = (l1 * hidden_2_layer['weights']) + hidden_2_layer['biases']
     l2 = tf.nn.relu(l2)
 
-    l3 = tf.add(tf.matmul(l2,hidden_3_layer['weights']), hidden_3_layer['biases'])
+    l3 = (l2 * hidden_3_layer['weights']) + hidden_3_layer['biases']
     l3 = tf.nn.relu(l3)
 
-    output = tf.matmul(l3,output_layer['weights']) + output_layer['biases']
+    output = (l3 * output_layer['weights']) + output_layer['biases']
 
     return output
 
-def train_neural_network(x):
-    prediction = neural_network_model(x)
+def train_neural_network(x_shape):
+    prediction = neural_network_model(x_shape)
 
     #difference between prediction and label
     cost = tf.reduce_mean( tf.nn.softmax_cross_entropy_with_logits(logits=prediction, labels=y) )
     # AKA: stochastic gradient descent
     optimizer = tf.train.AdamOptimizer().minimize(cost)
     #epoch is one iteration of feed forward and backpropagation
-    num_epochs = 10
+    num_epochs = 2
 
     with tf.Session() as sess:
         # initialialize neural network with placeholders
@@ -361,10 +362,18 @@ def train_neural_network(x):
         for epoch in range(num_epochs):
             epoch_loss = 0
 
-            #method next_batch comes from MNIST directories
+            i = 0
+            while i < x_shape:
+                start = i
+                end = i + batch_size
+
+                batch_x = np.array([inc.lexicon[start:end] for inc in all_incidents if inc.service_detail !='wHardware Prediction' ])
+                batch_x = np.array([inc.lexicon[start:end] for inc in all_incidents if inc.service_detail =='wHardware Prediction' ])
+                i += batch_size
+
             for _ in all_incidents.lexicon:
                 epoch_x, epoch_y = all_incidents.lexicon
-                _, c = sess.run([optimizer, cost], feed_dict={x: epoch_x, y: epoch_y})
+                _, c = sess.run([optimizer, cost], feed_dict={x: batch_x, y: batch_y})
                 epoch_loss += c
 
             print('Epoch', epoch, 'completed out of',num_epochs,'loss:',epoch_loss)
@@ -375,7 +384,7 @@ def train_neural_network(x):
         accuracy = tf.reduce_mean(tf.cast(correct, 'float'))
         inputs = [service for service in all_incidents.service_detail if service != 'wHardware Prediction']
         test_labels = [service for service in all_incidents.service_detail if service == 'wHardware Prediction']
-        print('Accuracy:',accuracy.eval({x:inputs, y:test_labels}))
+        print('Accuracy:',accuracy.eval({x:test_x, y:test_y}))
 
 def initialize_placeholders(x_length):
     #close_notes, sho_des, description
@@ -414,12 +423,9 @@ features = []
 labels = []
 prediction_data = []
 
-
-x_shape = len(dictionary)
-
 initialize_placeholders(x_shape)
 
-train_neural_network(x)
+train_neural_network(x_shape)
 
 
 
