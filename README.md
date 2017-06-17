@@ -13,9 +13,10 @@ Chuck Sulikowski (Manager)
 The lexical analysis machine is a work in progress that will use C++ arrays in order to reduce the computation complexity of identifying a principle component in the input vectors. Currently the code from my neural network in this program is optimized for the mnist training set. Running the current version (June 13th) will yeild an error after the preprocessing.
   - > The lexical_analysis_machine automatically imports all dependencies automatically if they are in Python35\site-packeges
   - > wHardware_prediction.csv, workstation_hardware.csv, software_application: must all be in the same directory as this program
+`
 
-    nn_testing
-The nn_testing file is oriented around the neural network. Fully documented code will lead one familair with neural network around the TensorFlow session. The current version of the nn_testing is meant to be a model for what the optimized version of the ultimate neural network will become.
+     nn_testing
+`The nn_testing file is oriented around the neural network. Fully documented code will lead one familair with neural network around the TensorFlow session. The current version of the nn_testing is meant to be a model for what the optimized version of the ultimate neural network will become.
   - > The nn_testing file automatically imports all dependencies automatically if they are in Python35\site-packeges
   - > wHardware_prediction.csv, workstation_hardware.csv, software_application: must all be in the same directory as this program
   
