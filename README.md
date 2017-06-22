@@ -9,9 +9,9 @@ Team Members:
 Hema Shah (Project Supervisor)
 Chuck Sulikowski (Manager)
 
-    lexical analysis machine
-The lexical analysis machine is a work in progress that will use C++ arrays in order to reduce the computation complexity of identifying a principle component in the input vectors (Incident lexicon array). Currently the code from my neural network in this program is optimized for the mnist training set. Running the current version (June 13th) will yeild an error after the lexical analysis.
-  - > The lexical_analysis_machine automatically imports all dependencies automatically if they are in Python35\site-packages
+    pro_svm == Production scale-able support vector machine
+The support vector machine classifies a given service incident based on the occurrence of words in fields of text. For example, an incident that mentions ['print', 'printing', 'can't connect', 'jam'] should be classified as Printing. A seperate incident that mentions ['Monitor','SSD','Keyboard'] should be classified as Workstation Hardware.
+  - > The prod_svm automatically imports all dependencies automatically if they are in Python35\site-packages
   - > wHardware_prediction.csv, workstation_hardware.csv, software_application: must all be in the same directory as this program
 
 The nn_testing file is oriented around the neural network. Fully documented code will lead one familair with neural network around the TensorFlow session. The current version of the nn_testing is meant to be a model for what the optimized version of the final neural network will become.
