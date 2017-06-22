@@ -12,7 +12,7 @@ Chuck Sulikowski (Manager)
     pro_svm == Production scale-able support vector machine
 The support vector machine classifies a given service incident based on the occurrence of words in fields of text. For example, an incident that mentions ['print', 'printing', 'can't connect', 'jam'] should be classified as Printing. A seperate incident that mentions ['Monitor','SSD','Keyboard'] should be classified as Workstation Hardware.
   - > The prod_svm automatically imports all dependencies automatically if they are in Python35\site-packages
-  - > wHardware_prediction.csv, workstation_hardware.csv, software_application: must all be in the same directory as this program
+  - > SD_SoftApp_TrainingData.csv, SD_wHardware_PredictionData.csv, SD_wHardware_TrainingData.csv: must all be in the same directory as this program
 
 The nn_testing file is oriented around the neural network. Fully documented code will lead one familair with neural network around the TensorFlow session. The current version of the nn_testing is meant to be a model for what the optimized version of the final neural network will become.
   
